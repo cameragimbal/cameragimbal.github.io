@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -8,7 +9,6 @@ header {
     height: 100vh;
     background-size: cover;
     color: aliceblue;
-    font-family: 'Arial';
 }
 
 .header-content {
@@ -16,38 +16,29 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     text-align: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 30%
 }
 
-h1 {
-    font-family:
-}
-
-h2 {
-
-}
-
-h3 {
-
+.intro-text {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    font-size: 50px;
 }
 
 a {
-    background-color: #395fb0;
-    border-bottom: 3px solid #304777;
+    background-color: dimgrey;
+    border-bottom: 3px solid dimgrey;
     display: block;
-    width: 100px;
-    text-align: center;
+    width: 110px;
     padding: 20px 40px;
     color: white;
     text-decoration: none;
-    font-family: 'Roboto';
+    font-family: 'Open Sans', sans-serif;
     border-radius: 4px;
-}
-
-.ripple {
-    position: fixed;
-    left: 30%;
 }
 
 .expanding {
@@ -68,6 +59,4 @@ a {
     background-color: #363636;
 }
 
-@media (max-width:768px) {
-
-}
+@media (max-width:768px) {}
