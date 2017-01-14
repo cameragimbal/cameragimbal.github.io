@@ -25,7 +25,7 @@ header {
 
 .intro-text {
     font-family: 'Open Sans', sans-serif;
-    padding: 5px;
+    padding: 10px;
     font-size: 50px;
 }
 
@@ -57,6 +57,10 @@ a {
     width: 300px;
     height: 120px;
     background-color: #363636;
+}
+
+.spacing {
+    height: 10px;
 }
 
 @media (max-width:768px) {}
