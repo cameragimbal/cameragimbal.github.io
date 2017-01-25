@@ -14,7 +14,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #15181F;
+    background: rgba(2, 23, 37, 0.95);
     height: 50px;
     width: 100%;
     z-index: 3;
@@ -112,7 +112,7 @@
 
 .cd-secondary-nav a {
     display: inline-block;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -133,7 +133,7 @@
 }
 
 .cd-primary-nav-trigger .cd-menu-text {
-    color: white;
+    color: Black;
     text-transform: uppercase;
     font-weight: 700;
     /* hide the text on small devices */
@@ -155,7 +155,7 @@
     transform: translateX(-50%) translateY(-50%);
     width: 18px;
     height: 2px;
-    background-color: white;
+    background-color: black;
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
