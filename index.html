@@ -6,12 +6,41 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/nav.css">
     <!-- Material Design Buttons -->
     <link rel="stylesheet" href="/css/waves.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
 </head>
 
 <body>
+    <header class="cd-header">
+        <a class="cd-primary-nav-trigger" href="#0">
+            <span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+        </a>
+        <!-- cd-primary-nav-trigger -->
+    </header>
+
+    <nav>
+        <ul class="cd-primary-nav">
+            <li class="cd-label">Our Services</li>
+
+            <li><a href="#0">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#0">Videos</a></li>
+
+            <li class="cd-label">Contact Us</li>
+
+            <li><a href="#0">Via Email</a></li>
+
+            <li class="cd-label">Follow us</li>
+
+            <li class="cd-social cd-instagram"><a href="https://www.instagram.com/maxiabphotography/">Instagram</a></li>
+            <li class="cd-social cd-twitter"><a href="https://twitter.com/maximilian_ab">Twitter</a></li>
+        </ul>
+    </nav>
+
     <header>
         <div class="header-content">
             <h1 class="intro-text">CAMERA GIMBALS</h1>
@@ -19,12 +48,20 @@
             </div>
             <a href="products.html" class="ripple">View Products</a>
         </div>
+
+        <div class="container">
+            <div class="inner">
+                <p></p>
+            </div>
+        </div>
     </header>
     <script src="/js/waves.min.js"></script>
     <script type="text/javascript">
         Waves.attach('.ripple');
         Waves.init();
     </script>
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>
