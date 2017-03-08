@@ -3,12 +3,39 @@
 
 <head>
     <meta charset="utf-8">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="/css/reset.css">s
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
-    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-91558917-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
     <style>
         body {
+            background: #15181F;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+        }
+
+        .container {
             background: #15181F;
             position: absolute;
             top: 50%;
@@ -47,18 +74,48 @@
 
         a {
             text-decoration: none;
+            color: white;
         }
     </style>
 </head>
 
+
+
+
 <body>
+    <header class="cd-header">
+        <a class="cd-primary-nav-trigger" href="#0">
+            <span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+        </a>
+    </header>
 
-    <h1>404</h1>
-    <h2>PAGE NOT FOUND</h2>
-    <a href="index.html">
-        <h3>How about you check out the homepage?</h3></a>
+    <nav>
+        <ul class="cd-primary-nav">
+            <li class="cd-label">Our Services</li>
 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="videos.html">Videos</a></li>
 
+            <li class="cd-label">Contact Us</li>
+
+            <li><a href="#0">Via Email</a></li>
+
+            <li class="cd-label">Follow us</li>
+
+            <li class="cd-social cd-instagram"><a href="https://www.instagram.com/maxiabphotography/">Instagram</a></li>
+            <li class="cd-social cd-twitter"><a href="https://twitter.com/maximilian_ab">Twitter</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>404</h1>
+        <h2>PAGE NOT FOUND</h2>
+        <a href="index.html">
+            <h3>How about you check out the homepage?</h3></a>
+    </div>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>

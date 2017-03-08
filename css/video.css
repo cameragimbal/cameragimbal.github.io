@@ -1,0 +1,21 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vp;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
